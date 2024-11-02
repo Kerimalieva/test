@@ -60,6 +60,7 @@ public class CustomerManagementApp extends JFrame {
         SwingUtilities.invokeLater(() -> {
             CustomerManagementApp app = new CustomerManagementApp();
             app.setVisible(true);
+
         });
     }
 
@@ -213,5 +214,13 @@ public class CustomerManagementApp extends JFrame {
         } catch (SQLException ex) {
             JOptionPane.showMessageDialog(this, "Ошибка при удалении клиента: " + ex.getMessage());
         }
+    }
+
+    void newFunction(){
+        System.out.println("Hello");
+    }
+
+    void newnew(){
+        System.out.println();
     }
 }
