@@ -219,4 +219,8 @@ public class CustomerManagementApp extends JFrame {
     void newFunction(){
         System.out.println("Hello");
     }
+
+    void newnew(){
+        System.out.println();
+    }
 }
